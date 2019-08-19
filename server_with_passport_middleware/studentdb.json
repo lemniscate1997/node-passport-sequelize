@@ -1,0 +1,108 @@
+{
+    "student": [{
+            "id": 1,
+            "firstname": "Rahul",
+            "lastname": "Raiyani",
+            "dob": "26-12-1997",
+            "gender": "male"
+        },
+        {
+            "id": 2,
+            "firstname": "Ravi",
+            "lastname": "Ranpariya",
+            "dob": "27-12-1997",
+            "gender": "male"
+        },
+        {
+            "id": 3,
+            "firstname": "Rushabh",
+            "lastname": "Sheta",
+            "dob": "02-11-1997",
+            "gender": "male"
+        },
+        {
+            "id": 4,
+            "firstname": "Dhruvin",
+            "lastname": "Radadiya",
+            "dob": "12-08-1997",
+            "gender": "male"
+        },
+        {
+            "id": 5,
+            "firstname": "sadsd",
+            "lastname": "sadsd",
+            "dob": "sadsd",
+            "gender": "sadsd"
+        },
+        {
+            "firstname": "h",
+            "lastname": "b",
+            "dob": "23-12-1997",
+            "gender": "sds",
+            "id": 6
+        },
+        {
+            "firstname": "h",
+            "lastname": "b",
+            "dob": "23-12-1997",
+            "gender": "sds",
+            "id": 7
+        },
+        {
+            "firstname": "brijesh",
+            "lastname": "savaliya",
+            "dob": "12-02-1998",
+            "gender": "male",
+            "id": 8
+        },
+        {
+            "firstname": "Nishtha",
+            "lastname": "Patel",
+            "dob": "13-08-1998",
+            "gender": "Female",
+            "id": 9
+        },
+        {
+            "firstname": "Hiral",
+            "lastname": "Patel",
+            "dob": "12-06-1997",
+            "gender": "Female",
+            "id": 10
+        },
+        {
+            "firstname": "Dhruvesh",
+            "lastname": "Rajodiya",
+            "dob": "01-12-1997",
+            "gender": "Male",
+            "id": 11
+        },
+        {
+            "firstname": "Jay",
+            "lastname": "Rajavadiya",
+            "dob": "12-09-1997",
+            "gender": "Male",
+            "id": 12
+        },
+        {
+            "firstname": "hunny",
+            "lastname": "patel",
+            "dob": "21-8-1998",
+            "gender": "Female",
+            "id": 13
+        },
+        {
+            "firstname": "gurang",
+            "lastname": "patel",
+            "dob": "12-06-1997",
+            "gender": "Male",
+            "id": 14
+        },
+        {
+            "firstname": "ankit",
+            "lastname": "patel",
+            "dob": "12-10-1997",
+            "gender": "male",
+            "id": 15
+        }
+    ]
+}
