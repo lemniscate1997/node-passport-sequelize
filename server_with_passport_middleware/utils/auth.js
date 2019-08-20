@@ -1,5 +1,6 @@
 const passport = require('passport');
 const userRepository = require('../features/user/userRepository');
+const sessions = require('../middlewares/session');
 
 app.post('/auth/login', (req, res, next) => {
     passport.authenticate('local', (err, user, info) => {
@@ -38,7 +39,7 @@ app.post('/auth/login', (req, res, next) => {
 
 app.post('/auth/logout', async(req, res) => {
     console.log(req.user);
-    // await sessions.logout(req, res);
+    await sessions.logout(req, res);
     res.json({
         status: 200,
         msg: "Logout successful"

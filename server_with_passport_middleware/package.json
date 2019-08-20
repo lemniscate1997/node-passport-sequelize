@@ -29,5 +29,9 @@
         "pg": "^7.12.1",
         "sequelize": "^5.15.0",
         "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "grunt": "^1.0.4",
+        "grunt-nodemon": "^0.4.2"
     }
 }

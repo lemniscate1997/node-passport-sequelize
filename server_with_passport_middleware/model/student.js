@@ -1,11 +1,20 @@
+const general = require('../utils/general');
 class StudentModel extends Sequelize.Model {
     static init(sequelize, DataTypes) {
         return super.init({
-            studentid: {
+            id: {
                 type: DataTypes.INTEGER,
                 allowNull: false,
-                primaryKey: true,
                 autoIncrement: true
+            },
+            studentid: {
+                type: DataTypes.UUID,
+                allowNull: true,
+                primaryKey: true,
+                validate: {
+                    isUUID: 4
+                },
+                defaultValue: () => general.genUUID()
             },
             firstname: {
                 type: DataTypes.STRING(20),
